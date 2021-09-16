@@ -1,2 +1,2 @@
-# javascrit
+# javascript
 HTML, CSS and JS
