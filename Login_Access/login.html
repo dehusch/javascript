@@ -42,7 +42,7 @@
         <h3>Login</h3>
         <input type="text" placeholder="Login" id="login">
         <input type="password" placeholder="Senha" id="senha">
-        <input type="submit" onclick="logar()">
+        <input type="submit" onclick="logar(); return false">
 
     </form>
 
@@ -54,10 +54,11 @@
 
             if(login == "admin" && senha == "admin"){
                 alert("Sucesso");
+                location.href = "home.html";
             }
             else{
                 alert("Usuario ou senha Incorreto!");
-                
+
             }
         }
 
