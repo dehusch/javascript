@@ -28,4 +28,7 @@ console.warn("This is a warning message");
 console.time("Hello");
 console.log("Hello World");
 
-
+console.log(40 + 3.5);
+console.log(2024 - 1969);
+console.log(65 / 240);
+console.log(0.2708 * 100);
